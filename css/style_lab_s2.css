@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+}
+body {
+    background: #000;
+    font-size: 100%;
+}
+.container {
+    width: 900px; 
+    margin: 0 auto;
+    background: #fff;
+    padding: 5% 7%;
+    box-sizing: border-box;
+}
+h1, h2, h3, p {
+    font-size: 0.9rem;
+}
+.info {
+    margin-bottom: 1.5rem;
+}
+ul {
+    padding-left: 0;
+    list-style-position: inside;
+}
+li > p {
+    display: inline;
+    padding-left: 10px;
+}
+.employmentHistory  h3 {
+    margin-top: 1.5rem;
+}
+.employmentHistory {
+    line-height: 2;
+}
+span {
+    display: inline-block;
+    width: 200px;
+}
+footer p{
+    text-align: center;
+    font-size: 0.75rem;
+}
+
+
