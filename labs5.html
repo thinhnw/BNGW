@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HTML Form</title>
+	<link rel="stylesheet" href="css/style_lab_s5.css">
+</head>
+<body>
+	<form action="#">
+		<h1>Create task</h1>
+		<div class="form-group">
+			<input type="text" placeholder="Type" class="form-control">
+		</div>
+		<div class="form-group inline-group">
+			<select name="company" class="form-control">
+				<option value="" disabled selected>Company</option>
+				<option value="company1">Company #1</option>
+				<option value="company2">Company #2</option>
+				<option value="company3">Company #3</option>
+			</select>
+		</div><div class="form-group inline-group">
+			<select name="opportunity" class="form-control">
+				<option value="" disabled selected>Opportunity</option>
+				<option value="opportunity1">Opportunity #1</option>
+				<option value="opportunity2">Opportunity #2</option>
+				<option value="opportunity3">Opportunity #3</option>
+			</select>
+			<p>Optional</p>
+		</div>
+		<div class="form-group">
+			<input type="text" placeholder="Task name" class="form-control">
+		</div>
+		<div class="form-group">
+			<input class="form-control" type="text" placeholder="CC">
+			<p>Optional</p>
+		</div>
+		<div class="form-group">
+			<p>Nature of request</p>	
+			<label><input type="checkbox" name="req" value="adsreview">Ads review</label>
+			<label><input type="checkbox" name="req" value="keywordsreview">Keywords review</label>
+			<label><input type="checkbox" name="req" value="extensionsreview">Extensions review</label>
+		</div>
+		<div class="form-group">
+			<p>Current reviewable status</p>
+			<label><input type="radio" name="status" value="" checked>Approved</label>
+			<label><input type="radio" name="status" value="">Not approved</label>
+		</div>
+	</form>	
+</body>
+</html>
