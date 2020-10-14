@@ -3,20 +3,32 @@
 }
 
 body {
+	font-family: Arial, sans-serif;
 	font-size: 100%;
 	background-color: #e5e5e5;
 }
-
+h1 {
+	font-size: 1.25rem;
+	font-weight: 300;
+	color: #30373d;
+	margin-bottom: 20px;
+}
 form {
 	display: block;
 	width: 800px;
+	height: 600px;
 	margin: 50px auto;
 	background-color: #fff;
 	border-radius: 10px;
 	box-sizing: border-box;
 	padding: 2%;	
 }
-input[type=text]{
+.form-group {
+	display: block;
+	position: relative;
+	margin-top: 30px;
+}
+input[type=text]  {
 	background-color: #e5e5e5;
 	border: none;
 	border-bottom: 1px solid black;
@@ -25,16 +37,71 @@ input[type=text]{
 	width: 100%;
 	height: 50px;
 	box-sizing: border-box;
-	padding-left: 10px;
 	color: #000;
+	font-size: 1.1rem;
+	padding-left: 15px;
 }
-.inline-group {
-	display: inline-block;
-	width: 50%;
+input[type=text]::placeholder {
+	color: #515151;
+	opacity: 1;
+}
+.select-group {
+	height: 50px;
+}
+.wrapper{
+	display: block;
+	width: 49%;
+	vertical-align: top;
+	position: absolute;
+
+}
+.float-left {
+	left: 0;
+	top: 0;
+}
+.float-right{ 
+	top: 0;
+	right: 0;
+}
+.select-wrapper::before{
+	content: '\1f893';
+	font-size: 2rem;
+	top: 15px;
+	right: 15px;
+	position: absolute;
+	pointer-events: none;
+	color: #515151;
 }
 select {
+
+	background-color: #e5e5e5;
+	appearance: none;
 	width: 100%;
+	height: 50px;
+	display: inline-block;
+	border: none;
+	border-bottom: 1px solid #000;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	color: #515151;
+	font-size: 1.1rem;
+	padding-left: 11px;
+}
+
+option {
+	padding: 0;
+}
+.small-text {
+	font-size: 0.9rem;
+	margin-left: 15px;
+	margin-top: 5px;
+	font-weight: 100;
+	color: #515151;
+}
+label {
+	display: block;
+	margin-top: 15px;
 }
 input[type=checkbox], input[type=radio] {
-	display: inline-block;
+	margin-right: 15px
 }
