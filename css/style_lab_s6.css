@@ -9,6 +9,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	line-height: 1.25;
+	color: #222;
 }
 p {
 	margin: 0 0 30px;
@@ -45,7 +46,7 @@ header {
 
 /* MENU SECTION */
 nav {
-	border-top: 1px solid black;
+	border-top: 1px solid #ddd;
 	height: 80px;
 	font-weight: 500;
 }
@@ -174,3 +175,19 @@ li.tmp i {
 	top: 12px;
 	left: 12px;
 }
+
+table {
+	margin-top: -20px;
+	width: 100%;
+	border-spacing: 10px 15px;
+}
+td {
+	height: 50px;
+	width: 20%;
+	vertical-align: middle;
+	text-align: center;
+	background-color: #eee;
+	font-size: 1.5rem;
+}
+
+
