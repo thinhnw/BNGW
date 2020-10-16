@@ -16,7 +16,7 @@ p {
 main {
 	width: 100%;
 }
-
+/* HEADER SECTION */
 header, nav, footer, section {
 	width: 100%;
 }
@@ -29,15 +29,28 @@ header {
 	height: 120px;
 }
 
+.header-middle {
+	top: 50%;
+	font-weight: 700;
+	margin-top: -15px;
+}
 
+.header-link {
+	text-decoration: none;
+	
+}
+.header-link:link, .header-link:visited, .header-link:hover {
+	color: #222;	
+}
+
+/* MENU SECTION */
 nav {
 	border-top: 1px solid black;
 	height: 80px;
 	font-weight: 500;
 }
 
-section {
-}
+/* CONTAINER*/
 
 .container {
 	display: block;
@@ -45,7 +58,7 @@ section {
 	height: 100%;
 	margin: 0 auto;
 	position: relative;
-	padding: 30px 50px;
+	padding: 30px 40px;
 }
 .left {
 	display: inline-block;
@@ -72,22 +85,26 @@ ul li {
 	float: left;
 }
 ul.from-right li{
-	padding-left: 20px;
+	padding-left: 30px;
 }
 ul.from-left li{
-	padding-right: 20px;
+	padding-right: 30px;
 }
 
+/* BODY SECTION */
 .article {
 	background: #fff;
 	width: 100%;
 	padding: 50px 80px;
 }
-.subscription {
-	background-color: #222;
-	color: #fff;
+.article h2 {
+	font-size: 1.75rem;
+	font-weight: 500;
+	margin-bottom: 10px;
 }
-
+.article p {
+	line-height: 1.5;
+}
 .article-img {
 	width: 100%;
 	margin-bottom: 50px;
@@ -98,10 +115,21 @@ ul.from-left li{
 }
 
 aside {
-
 	text-align: left;
 }
-form {
+aside > * {
+	margin-bottom: 30px;
+}
+.subscription {
+	background-color: #222;
+	color: #fff;
+}
+.social, .search-bar {
+	background-color: #fff;
+}
+
+
+.aside-item{
 	padding: 30px 30px;
 }
 
@@ -118,3 +146,24 @@ input[type=submit] {
 	color: #fff;
 	font-weight: 700;
 }
+
+input[type=submit]:hover {
+	background: rgba(255, 50, 50);
+	cursor: pointer;
+}
+
+input[type=submit]:active {
+	transform: scale(0.98);
+}
+input[type=search] {
+	border: 1px solid #ccc;
+}
+
+li.tmp {
+	background: #eee;
+	display: block;
+	width: 50px;
+	height: 50px;
+	margin: -10px 6px 22px;
+}
+

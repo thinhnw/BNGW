@@ -7,21 +7,24 @@
 
 	<link rel="stylesheet" href="css/style_lab_s6.css">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
 </head>
 <body>
 	<main>
 		<header>
 			<div class="container">
 				<div class="left">
-					<h1>Genesis Framework</h1>
-					<p>Supports HTML5 & Responsive Design</p>
+					<a class="header-link" href="#">
+						<h1>Genesis Framework</h1>
+						<p>Supports HTML5 & Responsive Design</p>
+					</a>
 				</div>
-				<div class="right">
+				<div class="right header-middle ">
 					<ul class="from-right">
-						<li>Sample</li>
-						<li>Layouts</li>
-						<li>Templates</li>
-						<li>Contact</li>
+						<li><a href="#" class="header-link">Sample</a></li>
+						<li><a href="#" class="header-link">Layouts</a></li>
+						<li><a href="#" class="header-link">Templates</a></li>
+						<li><a href="#" class="header-link">Contact</a></li>
 					</ul>
 				</div>				
 			</div>
@@ -30,14 +33,14 @@
 			<div class="container">
 				<div class="left">
 					<ul class="from-left">
-						<li>Category #1</li>
-						<li>Category #2</li>
-						<li>Category #3</li>
-						<li>Category #4</li>
+						<li><a href="#" class="header-link">Category #1</a></li>
+						<li><a href="#" class="header-link">Category #2</a></li>
+						<li><a href="#" class="header-link">Category #3</a></li>
+						<li><a href="#" class="header-link">Category #4</a></li>
 					</ul>
 				</div>
 				<div class="right">
-					<p>Get Genesis Now!</p>
+					<p><a href="#" class="header-link">Get Genesis Now!</a></p>
 				</div>
 			</div>
 		</nav>
@@ -46,7 +49,7 @@
 				<div class="left">
 					<div class="article">
 						<h2>Sample Post With Threaded Comments</h2>
-						<p>May 1, 2016 by <u>Brian Gardner</u> -  <u>8 Comments</u></p>
+						<p>May 1, 2016 by <a href="#">Brian Gardner</a> -  <a href="#">8 Comments</a></p>
 						<figure class="article-img"><img src="images/macbook.jpg" alt=""></figure>
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis aliquam repellat facilis? Distinctio ipsam quos esse repellendus atque, quasi perferendis expedita ab tenetur numquam culpa vero, ad consequatur est ratione?</p>
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis aliquam repellat facilis? Distinctio ipsam quos esse repellendus atque, quasi perferendis expedita ab tenetur numquam culpa vero, ad consequatur est ratione?</p>
@@ -54,16 +57,33 @@
 				</div>
 				<div class="right">
 					<aside>
-						<form class="subscription">
+						<form class="subscription aside-item">
 							<p><b>Email Newsletter</b></p>
 							<p>Sign up to receive email updates and to hear what's going on with our company!</p>
 							<input type="text" placeholder="Your Name"> 
 							<input type="email" placeholder="E-Mail Address">
 							<input type="submit" value="Subscribe" >
 						</form>
-						<div class="social">
-
+						<div class="social aside-item">
+							<p><b>Social icons</b></p>
+							<ul>
+								<li class="tmp"><i class="fas fa-envelope"></i></li>
+								<li class="tmp"></li>
+								<li class="tmp"></li>
+								<li class="tmp"></li>
+								<li class="tmp"></li>
+							</ul>
+							<ul>
+								<li class="tmp"></li>
+								<li class="tmp"></li>
+								<li class="tmp"></li>
+								<li class="tmp"></li>
+								<li class="tmp"></li>
+							</ul>
 						</div>
+						<form class="search-bar aside-item">
+							<input type="search" placeholder="Search this website...">
+						</form>
 					</aside>
 				</div>
 			</div>
