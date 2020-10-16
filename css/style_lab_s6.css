@@ -1,0 +1,120 @@
+* { 
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+
+	background-color: #eee;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	line-height: 1.25;
+}
+p {
+	margin: 0 0 30px;
+}
+main {
+	width: 100%;
+}
+
+header, nav, footer, section {
+	width: 100%;
+}
+
+header, nav {
+	background-color: #fff;
+}
+
+header {
+	height: 120px;
+}
+
+
+nav {
+	border-top: 1px solid black;
+	height: 80px;
+	font-weight: 500;
+}
+
+section {
+}
+
+.container {
+	display: block;
+	width: 1140px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+	padding: 30px 50px;
+}
+.left {
+	display: inline-block;
+	vertical-align: middle;
+	width: 66%;
+	position: absolute;
+	left: 0;
+	padding-right: 15px;
+}
+.right {
+	display: block;
+	width: 34%;
+	position: absolute;
+	right: 0;
+	text-align: right;
+	padding-left: 15px;
+}
+ul {
+	list-style-type: none;
+	display: inline-block;
+	vertical-align: middle;
+}
+ul li {
+	float: left;
+}
+ul.from-right li{
+	padding-left: 20px;
+}
+ul.from-left li{
+	padding-right: 20px;
+}
+
+.article {
+	background: #fff;
+	width: 100%;
+	padding: 50px 80px;
+}
+.subscription {
+	background-color: #222;
+	color: #fff;
+}
+
+.article-img {
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+.article-img img {
+	width: 100%;
+}
+
+aside {
+
+	text-align: left;
+}
+form {
+	padding: 30px 30px;
+}
+
+input {
+	display: block;
+	width: 100%;
+	margin: 20px 0;
+	border: none;
+	padding: 20px;
+}
+
+input[type=submit] {
+	background: #ff0000;
+	color: #fff;
+	font-weight: 700;
+}
