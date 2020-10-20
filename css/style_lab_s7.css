@@ -1,5 +1,6 @@
-html {
+body {
 	font-size: 1rem;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .header{
@@ -27,7 +28,7 @@ ul.topbar-right li{
 	margin-left: 30px;
 }
 .topbar {
-	border-bottom: 1px solid #fff;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 .navbar {
 	height: 80px;
@@ -40,10 +41,42 @@ ul.topbar-right li{
 	height: auto;
 }
 
+.nav-item a {
+	font-weight: 600 ;
+	font-size: 0.9rem;
+}
+
+.fa-search {
+	font-size: 1.5rem;
+}
+button {
+	background: #30a8d5 !important;
+	padding: 10px 30px !important;
+}
+
 .jumbotron {
 	text-align: center;
 }
 
+.breadcrumb-item + .breadcrumb-item::before {
+   content: "\00BB" !important;
+   color: #30a8d5;
+}
 
+.breadcrumb-item a {
+	color: #fff;
+}
+.breadcrumb-item.active {
+	color: #fff;
+}
+.breadcrumb-item a:hover {
+	text-decoration: none;
+	color: #30a8d5;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 4rem;
+}
 
 
