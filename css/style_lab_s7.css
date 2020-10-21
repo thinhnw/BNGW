@@ -4,15 +4,17 @@ body {
 	color: #555;
 }
 
+h1 {
+	font-weight: 700;
+	font-size: 4rem;
+}
+
 .header{
 	background-image: url(../images/labs7/b01.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-}
-header {
 	color: rgba(255, 255, 255, 1);
 }
-
 ul {
 	list-style-type: none;
 }
@@ -75,12 +77,7 @@ button {
 	color: #30a8d5;
 }
 
-h1 {
-	font-weight: 700;
-	font-size: 4rem;
-}
-
-/* MAIN SECTION */
+/* MAIN */
 .ui-decor {
 	margin-left: 8%;
 	height: 32px;
@@ -149,4 +146,33 @@ h1 {
 .page-link:hover {
 	color: #fff;
 	background: #e2b71c;
+}
+
+/* FOOTER */
+
+.footer {
+	background: #222;
+	padding-top: 6rem;
+	color: #999;
+}
+.footerInfo {
+	border-bottom: 1px solid rgba(221, 221, 221, 0.1);
+	padding: 2rem 0 ;
+	font-size: 0.78rem;
+}
+.formTitle {
+	color: #fff;
+	font-weight: 600;
+	font-size: 1.1rem;
+	padding: 2rem 0 0.5rem;
+}
+.email {
+	padding: 1rem;
+	border: none;
+	background: #2a2e2f;
+	color: #a9aeb3;
+}
+.footer-copyright {
+	border-top: 1px solid rgba(221, 221, 221, 0.1);
+	padding: 2rem 0;
 }
