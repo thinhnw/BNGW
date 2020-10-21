@@ -1,10 +1,11 @@
 body {
 	font-size: 1rem;
 	font-family: 'Montserrat', sans-serif;
+	color: #555;
 }
 
 .header{
-	background-image: url(../images/b01.jpg);
+	background-image: url(../images/labs7/b01.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -79,4 +80,28 @@ h1 {
 	font-size: 4rem;
 }
 
+/* MAIN SECTION */
+.fleetName {
+	font-weight: 700;
+	font-size: 1.25rem;
+	color: #000;
+}
+.fleetPrice {
+	font-weight: 700;
+	font-size: 1.25rem;
+	color: #30a8d5;
+}
+.fleetInfo {
+	font-size: 0.75rem;
+	font-weight: 500;
+}
 
+.card .btn {
+	background-color: #ddd;
+	color: #000;
+	font-weight: 600;
+}
+.card:hover .btn {
+	background-color: #30a8d5 !important;
+	color: #fff;
+}
