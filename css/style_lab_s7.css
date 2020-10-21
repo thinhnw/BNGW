@@ -126,11 +126,27 @@ h1 {
 }
 
 .card .btn {
-	background-color: #ddd;
+	background-color: #f2f6f7;
 	color: #000;
 	font-weight: 600;
 }
 .card:hover .btn {
 	background-color: #30a8d5 !important;
 	color: #fff;
+}
+
+.page-item {
+	margin: 3rem 0.25rem;
+}
+.page-link {
+	border-radius: 0 !important;
+	color: #000;
+}
+.page-item.active .page-link{
+	background: #e2b71c;
+	border: 1px #ddd solid;
+}
+.page-link:hover {
+	color: #fff;
+	background: #e2b71c;
 }
