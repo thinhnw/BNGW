@@ -81,6 +81,35 @@ h1 {
 }
 
 /* MAIN SECTION */
+.ui-decor {
+	margin-left: 8%;
+	height: 32px;
+	clip-path: polygon(0 0, 100% 0, 2.5% 100%);
+	background: #30a8d5;
+}
+.select-wrapper {
+	position: relative;
+}
+.select-wrapper::before{
+	content: '\02C7';
+	font-size: 2rem;
+	top: 12px;
+	right: 15px;
+	position: absolute;
+	pointer-events: none;
+	color: #bbb;
+}
+.filter{
+	appearance: none;
+	height: 50px;
+	display: inline-block;
+	border: none;
+	color: #555;
+	font-size: 0.9rem;
+	padding: 10px;
+	padding-right: 5em;
+	margin-left: 12px;
+}
 .fleetName {
 	font-weight: 700;
 	font-size: 1.25rem;
