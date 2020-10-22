@@ -1,3 +1,3 @@
 # Building Next Generation Website
 
-[Link](bngw-thinhw.herokuapp.com)
+[Link](https://bngw-thinhnw.herokuapp.com)
