@@ -18,6 +18,7 @@ function loadData() {
 function gridProduct(items) {
 	let g_html = "";
 	items.foods.forEach((item) => {
+
 		g_html += "<div class=\"col-4\">" +
 					"<div class=\"card rounded-0\">" +
 						"<div class=\"card-thumbnail\">" +
@@ -29,7 +30,7 @@ function gridProduct(items) {
 						"</div>"+
 						"<a href=\"#\" class=\"btn btn-primary rounded-0\">ADD TO CART</a>"+ 
 					"</div>"+
-					"</div>";
+				"</div>";
 	});
 	return g_html;
 }
